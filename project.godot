@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="top-racing"
+run/main_scene="uid://ddcvhxxvarch"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
 
 [rendering]
 
